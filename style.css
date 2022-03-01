@@ -11,9 +11,6 @@ body {
   font-family: "GmarketSansMedium";
   color: white;
 }
-.hidden {
-  display: none;
-}
 #clock {
   font-size: 80px;
   margin: 50px;
@@ -55,14 +52,32 @@ input {
   height: 30px;
   width: 200px;
 }
+#btn {
+  font-family: "GmarketSansMedium";
+  font-size: 11px;
+  width: 212px;
+  background: black;
+  color: white;
+}
 
+/* #login-form {
+  margin-bottom: 80px;
+  display: grid;
+  grid-gap: 8px;
+  place-items: center;
+} */
+.hidden {
+  display: none;
+}
 #todo-form,
 #todo-list {
   display: grid;
   place-items: center;
   grid-gap: 8px;
 }
-
+#todo-form {
+  margin-top: 70px;
+}
 #todo-list {
   padding-right: 40px;
 }
